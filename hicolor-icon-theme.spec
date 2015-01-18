@@ -12,6 +12,9 @@ Requires(post): coreutils
 Requires(postun): coreutils
 
 %description
+For package support, please visit
+https://github.com/lambda-linux-pkgs/%{name}/issues
+
 Contains the basic directories and files needed for icon theme support.
 
 %prep
