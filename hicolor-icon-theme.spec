@@ -56,6 +56,11 @@ rm -rf $RPM_BUILD_ROOT
 %ghost %{_datadir}/icons/hicolor/icon-theme.cache
 
 %changelog
+* Sun Jan 18 2015 Rajiv M Ranganath <rajiv.ranganath@atihita.com> 0.12-7
+- Adapt for AL/LL
+- Add package support URL
+- Import source package SL7/hicolor-icon-theme-0.12-7.el7
+
 * Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.12-7
 - Mass rebuild 2013-12-27
 
