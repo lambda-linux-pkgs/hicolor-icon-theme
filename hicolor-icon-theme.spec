@@ -1,7 +1,9 @@
+%define _buildid .1
+
 Summary: Basic requirement for icon themes
 Name: hicolor-icon-theme
 Version: 0.12
-Release: 7%{?dist}
+Release: 7%{?_buildid}%{?dist}
 License: GPL+
 Group: User Interface/Desktops
 URL: http://icon-theme.freedesktop.org/wiki/HicolorTheme
